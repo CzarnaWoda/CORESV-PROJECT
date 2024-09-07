@@ -1,0 +1,211 @@
+random-drops:
+  ZLOTO:
+    chance: 5.0
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 2
+    pkt: 2
+    fortune: true
+    message: '&8|*|->> &7Wykopano &6&lZLOTO &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 4
+    drop:
+      what: GOLD_INGOT
+      from: STONE
+  DIAMENT:
+    chance: 5.2
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 3
+    pkt: 3
+    fortune: true
+    message: '&8|*|->> &7Wykopano &b&lDIAMENT &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: DIAMOND
+      from: STONE
+  ZELAZO:
+    chance: 5.6
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 1
+    pkt: 1
+    fortune: true
+    message: '&8|*|->> &7Wykopano &f&lZELAZO &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 5
+    drop:
+      what: IRON_INGOT
+      from: STONE
+  SZMARAGD:
+    chance: 5.8
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 5
+    pkt: 5
+    fortune: true
+    message: '&8|*|->> &7Wykopano &a&lSZMARAGD &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 2
+    drop:
+      what: EMERALD
+      from: STONE
+  JABLKA:
+    chance: 2.8
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 3
+    pkt: 3
+    fortune: true
+    message: '&8|*|->> &7Wykopano &4&lJABLKO &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 2
+    drop:
+      what: APPLE
+      from: STONE
+  WEGIEL:
+    chance: 3.2
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 2
+    pkt: 2
+    fortune: true
+    message: '&8|*|->> &7Wykopano &0&lWEGIEL &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 5
+    drop:
+      what: COAL
+      from: STONE
+  KSIAZKA:
+    chance: 2.2
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 5
+    pkt: 5
+    fortune: false
+    message: '&8|*|->> &7Wykopano &e&lKSIAZKA &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 1
+    drop:
+      what: BOOK
+      from: STONE
+  OBSIDIAN:
+    chance: 6.0
+    vipchance: 1.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 2
+    pkt: 2
+    fortune: true
+    message: '&8|*|->> &7Wykopano &5&lOBSIDIAN &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: OBSIDIAN
+      from: STONE
+  PERLA:
+    chance: 0.1
+    vipchance: 0.15
+    turbodropchance: 0.1
+    bonuschance: 0.02
+    exp: 45
+    pkt: 45
+    fortune: false
+    message: '&8|*|->> &7Wykopano &d&lPERLA ENDERMANA &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 1
+    drop:
+      what: ENDER_PEARL
+      from: STONE
+  TNT:
+    chance: 0.8
+    vipchance: 1.2
+    turbodropchance: 1.0
+    bonuschance: 0.5
+    exp: 7
+    pkt: 7
+    fortune: true
+    message: '&8|*|->> &7Wykopano &c&lTNT &8(&4{AMOUNT} &7szt&8) &2+{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 2
+    drop:
+      what: TNT
+      from: STONE
+cancel-drops:
+- DIAMOND_ORE
+- COAL_ORE
+- REDSTONE_ORE
+- GOLD_ORE
+- IRON_ORE
+- EMERALD_ORE
+exp-drops:
+  STONE: 8
+  OBSIDIAN: 120

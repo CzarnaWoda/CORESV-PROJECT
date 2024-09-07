@@ -1,0 +1,129 @@
+items:
+  stoniarka:
+    enable: true
+    item: ENDER_STONE
+    name: '&8|->> &e&lSTONIARKA &8<<-|'
+    lore:
+      - '&8* &eGenerator &a&nkamienia'
+      - '&8* &ePoloz nad nia &a&nSTONE&e lub &a&nOBSIDIAN'
+      - '&8* &eCzas odnowienia &f&lSTONE&e: &a&n1.25s'
+      - '&8* &eCzas odnowienia &5&lOBSIDIAN&e: &a&n15s'
+    crafting:
+      - '1'
+      - '1'
+      - '1'
+      - '1'
+      - '133'
+      - '1'
+      - '1'
+      - '1'
+      - '1'
+    simplecrafting: "1-0-8;133-0-1"
+  sandfarmer:
+    enable: true
+    item: SAND
+    name: '&8|->> &6&lGENERATOR PIASKU &8<<-|'
+    lore:
+      - '&8* &eGeneruje &a&npiasek'
+      - '&8* &eGeneruje piasek od &a&ngory&e do &a&ndolu'
+    crafting:
+      - '12'
+      - '12'
+      - '12'
+      - '12'
+      - '130'
+      - '12'
+      - '12'
+      - '12'
+      - '12'
+    simplecrafting: "12-0-8;130-0-1"
+  boyfarmer:
+    enable: true
+    item: OBSIDIAN
+    name: "&8|->> &6&lGENERATOR OBSIDIAN'u &8<<-|"
+    lore:
+      - '&8* &eGeneruje &a&nobsidian'
+      - '&8* &eGeneruje obsidian od &a&ngory&e do &a&ndolu'
+    crafting:
+      - '49'
+      - '49'
+      - '49'
+      - '49'
+      - '130'
+      - '49'
+      - '49'
+      - '49'
+      - '49'
+    simplecrafting: "49-0-8;130-0-1"
+  airgenerator:
+    enable: false
+    item: STONE
+    name: "&8|->> &6&lKOPACZ FOSY &8<<-|"
+    lore:
+      - '&8* &eGeneruje &a&npowietrze'
+      - '&8* &eGeneruje powietrze od &a&ngory&e do &a&ndolu'
+    crafting:
+      - '2'
+      - '2'
+      - '2'
+      - '2'
+      - '2'
+      - '2'
+      - '2'
+      - '2'
+      - '2'
+    simplecrafting: "2-0-9"
+  goldenapple:
+    enable: false
+    item: GOLDEN_APPLE
+    name: '&6Refil'
+    lore:
+      - '&8* &cRefill &8*'
+    crafting:
+      - '2'
+      - '2'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '2'
+      - '2'
+      - '2'
+    simplecrafting: "2-0-5;4-0-4;"
+  specialstone:
+    enable: true
+    item: MOSSY_COBBLESTONE
+    name: '&8|->> &e&lCOBBLEX &8<<-|'
+    lore:
+      - '&8* &eCo z niego wypadnie?'
+      - '&8* &eDrop dostepny pod &a&n/drop'
+      - '&8* &ePoloz na ziemi &a&nCOBBLEX'
+    crafting:
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+    simplecrafting: "4-0-576‬"
+  mysterybox:
+    enable: false
+    item: DRAGON_EGG
+    name: '&8|->> &d&l&nPANDORA &8<<-|'
+    lore:
+      - '&8|->> &7Postaw na ziemi aby otrzymac &a&nNIESAMOWITE&7 przedmioty'
+      - '&8|->> &7Drop z pandory dostepny pod &a&n/drop'
+    crafting:
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+      - '4'
+    simplecrafting: "4-0-576‬"

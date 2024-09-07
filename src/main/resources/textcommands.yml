@@ -1,0 +1,9 @@
+commands:
+  #Every command: and aliases: must be put in plugin.yml manually
+  vip:
+    command: 'vip'
+    permission: 'core.cmd.vip'
+    aliases:
+      - 'vipcommand'
+    text:
+      - 'To jest wiadomosc po wpisaniu /vip wariacie'

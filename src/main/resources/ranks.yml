@@ -1,0 +1,8 @@
+rank:
+  default: 'gracz'
+ranks:
+  gracz:
+    prefix: '&7'
+    suffix: '&6'
+    permissions:
+      - 'core.gracz'

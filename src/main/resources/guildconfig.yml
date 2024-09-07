@@ -1,0 +1,33 @@
+guild:
+  members:
+    limit:
+      start: 10
+      max: 80
+  items:
+    join: 388-0-16;
+    default: 368-0-16;322-0-32;
+    vip: 368-0-8;322-0-16;
+    coins:
+      enabled: true
+      amount: 1500
+  upgrades:
+    expiretime: 350
+    cuboid: 500
+    lives: 1000
+    playerlimit: 2000
+cuboid:
+  size:
+    start: 25
+    add: 5
+    max: 65
+  spawn:
+    world: 'world'
+    enabled: true
+    distance: 350
+    between: 125
+scoreboard:
+  vip: ' &8| &6&lVIP'
+  root: ' &8| &4R'
+  admin: ' &8| &cA'
+  mod: ' &8| &aM'
+  helper: ' &8| &bH'

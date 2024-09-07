@@ -1,0 +1,51 @@
+drop:
+  chest:
+    time: 1
+    name: 'TwojStaryCase'
+  vip:
+    drop: 1.0
+    exp: 1
+  obsidian:
+    amount: 1
+  turbo:
+    drop: 1
+    exp: 1
+    losowanie:
+      ilosc: 1
+  lvl:
+    broadcast:
+      - 5
+      - 10
+      - 15
+      - 20
+      - 30
+      - 40
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 100
+      - 105
+      - 110
+      - 115
+      - 120
+      - 130
+      - 140
+      - 150
+      - 160
+      - 170
+      - 180
+      - 190
+      - 200
+coins:
+  status: false
+  min: 10
+  max: 32
+event:
+  drop: 1
+  exp: 1

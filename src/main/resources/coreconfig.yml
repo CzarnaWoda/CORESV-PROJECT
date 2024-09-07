@@ -1,0 +1,35 @@
+chatmanager:
+  slowmode: 20
+  points: 500
+  format:
+    global: '{TAG}&8[&2{LVL}&8]{PREFIX}{PLAYER}&7: {SUFFIX}{MESSAGE}'
+    aglobal: '{PREFIX}{PLAYER}&7: {SUFFIX}{MESSAGE}'
+    tag: '&8[&a{TAG}&8] '
+combatmanager:
+  escapetime: 20
+  blockedcmd:
+    - 'message'
+    - 'msg'
+    - 'replay'
+    - 'r'
+    - 'helpop'
+slotmanager:
+  slots: 100
+antymacro:
+  cpsamount: 15
+enable:
+  diamonditems: 0
+depositmanager:
+  limitkox: 1
+  limitref: 1
+  limitpearl: 2
+duringfight:
+  blockplace:
+    enable: true
+    y: 35
+bordermanager:
+  border:
+    x: 1000
+    z: 1000
+    worldradius: 1000
+    netherradius: 200

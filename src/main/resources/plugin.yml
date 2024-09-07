@@ -1,0 +1,11 @@
+name: BW-PROJECT_HC
+version: 8.4-PREALPHA
+main: pl.blackwater.hardcore.Core
+description: Project HC
+author: BlackWater
+depend:
+  - ChestPvP-Api
+commands:
+  vip:
+    aliases: vipcommand
+  pomoc:

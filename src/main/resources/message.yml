@@ -1,0 +1,27 @@
+server:
+  nametag: '&8|->> &a&lCORE&2&lSV&7&l.EU &8<<-|'
+message:
+  playerjoin:
+    - '&8->> &a&lCORESV.EU &8<<-'
+    - '&8  |->> &7Witaj na &a&nI&7 edycji serwera &2&lCORESV.EU'
+    - '&8  |->> &7Zarejstrowanych unikalnych graczy: &a&n{REGISTERPLAYERS}'
+    - '&8  |->> &7Aktualnie online: &a&n{ONLINE}'
+    - '&8->> &a&lCORESV.EU &8<<-'
+  whitelist:
+    kickreason: '&8->> &7Spokojnie, kiedys wpuscimy cie na &a&nserwer'
+  command:
+    getusage: '&4Blad: &cPoprawne uzycie: {USAGE}'
+    unknown:
+      command: '&8|->> &eNie odnaleziono takiej komendy na serwerze! Wpisz &a&n/pomoc&e aby zobaczyc dostepne komendy!'
+      player: '&4Blad: &cGracz nie jest polaczony z serwerem'
+      user: '&4Blad: &cUzytkownik nie istnieje w bazie danych'
+  antylogout:
+    startcombat: '&4Uwaga, walka zostala rozpoczeta. AntyLogout trwa 20s!'
+    #ACTIONBAR MESSAGE TO PLAYER DURING COMBAT !
+    incombat: '&8>> &a&nANTYLOGOUT&8 (&e{SECOND}&8) &8<<'
+    endcombat: '&aWalka sie skonczyla, mozesz sie wylogowac!'
+    actionbarendcombat: '&8>> &a&nANTYLOGOUT&8 (&2KONIEC WALKI&8) &8<<'
+  antymacro: '&8|->> &a&lCORE&2&lSV&7&l.EU &4GRACZ &8(&c{PLAYER}&8) &8->> &4COUNT: {CLICKS}cps &8(&4ALERT COUNT: &c{ALERTCOUNT}&8)'
+  death:
+    kill: '&4ZABOJSTWO &8->> &cGracz {GVICTIM}{VICTIM} &8(&c{-}&8) &czostal zabity przez {GKILLER}{KILLER} &8(&c{+}&8)'
+    assist: '&6ASYSTA &8->> &cGracz {PLAYER} asystowal przy zabiciu &8(&c{+}&8)'

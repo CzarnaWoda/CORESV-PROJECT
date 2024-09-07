@@ -1,0 +1,77 @@
+lore:
+  isdone:
+    true: '&8->> &7Osiagniecie &azostalo ukonczone'
+    false: '&8->> &7Osiagniecie &cnie zostalo skonczone'
+messages:
+  achievementGet: '&6&lOSIAGNIECIA &8->> &7Gracz &a{PLAYER} &7zdobyl osiagniecie &6&l{ACHIEVEMENT}'
+gui:
+  inventoryname: '&8->> &7OSIAGNIECIA &6&lCORESV &8<<-'
+  rows: 2
+  materials:
+    kills: DIAMOND_SWORD
+    break_stone: STONE
+    throwed_pearl: ENDER_PEARL
+    open_chests: CHEST
+    eated_kox: GOLDEN_APPLE
+    eated_ref: GOLDEN_APPLE
+    spend_time: WATCH
+  itemname:
+    kills: '&8->> &7Osiagniecia &4&lZABOJSTW'
+    break_stone: '&8->> &7Osiagniecia &3&lWYKOPANEGO KAMIENIA'
+    throwed_pearl: '&8->> &7Osiagniecia &5&lRZUCONYCH PEREL'
+    open_chests: '&8->> &7Osiagniecia &6&lOTWORZONYCH SKRZYN'
+    eated_kox: '&8->> &7Osiagniecia &a&lZJEDZONYCH KOXOW'
+    eated_ref: '&8->> &7Osiagniecia &b&lZJEDZONYCH REFILII'
+    spend_time: '&8->> &7Osiagniecia &9&lSPEDZONEGO CZASU'
+achievements:
+  kills1:
+    gui_itemname: '&4&lMORDERCA I'
+    gui_item: DIAMOND_SWORD
+    gui_itemdata: 0
+    gui_itemlore:
+      - '&8->> &7Osiagniecie za &4&lZABOJSTWA'
+      - ''
+      - '&8->> &7Postep: {COLOR}{AMOUNT}&8/&2{REACHAMOUNT}&7, {COLOR}{PROGRESS}&7%'
+      - ''
+      - '&8->> &7Nagrody:'
+      - '&8  * &7Monety: &2{MONEY}'
+      - '&8  * &7Diamentowy miecz &8(&22&8)'
+    achievementAmount: 10
+    rewardCoins: 1000
+    achievementType: KILLS
+    rewardItems: #id-data-amount-enchant=enchantlevel;enchant=enchantlevel
+      - '276-0-1-sharpness=2'
+  kills2:
+    gui_itemname: '&4&lMORDERCA II'
+    gui_item: DIAMOND_SWORD
+    gui_itemdata: 0
+    gui_itemlore:
+      - '&8->> &7Osiagniecie za &4&lZABOJSTWA'
+      - ''
+      - '&8->> &7Postep: {COLOR}{AMOUNT}&8/&2{REACHAMOUNT}&7, {COLOR}{PROGRESS}&7%'
+      - ''
+      - '&8->> &7Nagrody:'
+      - '&8  * &7Monety: &2{MONEY}'
+      - '&8  * &7Diamentowy miecz &8(&25/2&8)'
+    achievementAmount: 50
+    rewardCoins: 2500
+    achievementType: KILLS
+    rewardItems: #id-data-amount-enchant=enchantlevel;enchant=enchantlevel
+      - '276-0-1-sharpness=5;fire=2'
+  breakstone1:
+    gui_itemname: '&3&lKOPACZ I'
+    gui_item: DIAMOND_PICKAXE
+    gui_itemdata: 0
+    gui_itemlore:
+      - '&8->> &7Osiagniecie za &3&lKOPANIE STONE'
+      - ''
+      - '&8->> &7Postep: {COLOR}{AMOUNT}&8/&2{REACHAMOUNT}&7, {COLOR}{PROGRESS}&7%'
+      - ''
+      - '&8->> &7Nagrody:'
+      - '&8  * &7Monety: &2{MONEY}'
+      - '&8  * &7Diamentowy kilof &8(&25/3/3&8)'
+    achievementAmount: 10
+    rewardCoins: 1500
+    achievementType: BREAK_STONE
+    rewardItems: #id-data-amount-enchant=enchantlevel;enchant=enchantlevel
+      - '278-0-1-efficiency=5;unbreaking=3;fortune=3'

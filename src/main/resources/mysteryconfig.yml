@@ -1,0 +1,25 @@
+# {ITEM} - Nazwa itemu
+# {AMOUNT} - Ilosc itemu
+# {ENCHANTS} - Enchanty pokazywane tak: 5/3/2
+# {NAME} - Nazwa przedmiotu (Po uzyciu wyswietli "o nazwie: <NAZWA>" jezeli nie bedzie mial nazwy po prostu ominie)
+# {NL} - Oznacza nowa linie
+mystery:
+  dropmessage: '&a&nPANDORA&8 ->> &7Otworzyles pandore oraz otrzymales: &e&n{ITEM}&8x&e{AMOUNT} &2{ENCHANTS}'
+  storage:
+    - 276-0-1-DAMAGE_ALL=5;FIRE_ASPECT=2;DURABILITY=3;
+    - 276-0-1-DAMAGE_ALL=5;DURABILITY=3;KNOCKBACK=2;
+    - 313-0-1-PROTECTION_ENVIRONMENTAL=5;DURABILITY=3;
+    - 312-0-1-PROTECTION_ENVIRONMENTAL=5;DURABILITY=3;
+    - 311-0-1-PROTECTION_ENVIRONMENTAL=5;DURABILITY=3;
+    - 310-0-1-PROTECTION_ENVIRONMENTAL=5;DURABILITY=3;
+    - 278-0-1-DIG_SPEED=5;DURABILITY=3;LOOT_BONUS_BLOCKS=3;
+    - 278-0-1-DIG_SPEED=6;DURABILITY=3;LOOT_BONUS_BLOCKS=3;
+    - 322-1-8
+    - 322-1-2
+    - 322-0-24
+    - 322-0-15
+    - 368-0-3
+    - 368-0-12
+    - 46-0-64
+    - 57-0-64
+    - 41-0-64

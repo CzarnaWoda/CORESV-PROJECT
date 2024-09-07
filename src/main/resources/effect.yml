@@ -1,0 +1,6 @@
+effects:
+  1:
+    #POTIONEFFECTNAME-DURATION(inSeconds)-AMPLIFER
+    effect: 'SPEED-60-0'
+    cost: 500
+    guiMaterial: 'FEATHER'

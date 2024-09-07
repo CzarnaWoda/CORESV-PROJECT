@@ -1,0 +1,59 @@
+kits:
+  #name of kit
+  vip:
+    #items like id-data-amount-enchant=levelenchant;enchant=levelenchant....
+    items:
+      - '310-0-1-prot=4;unbreaking=3'
+      - '311-0-1-prot=4;unbreaking=3'
+      - '312-0-1-prot=4;unbreaking=3'
+      - '313-0-1-prot=4;unbreaking=3'
+      - '310-0-1-prot=4;unbreaking=3'
+      - '311-0-1-prot=4;unbreaking=3'
+      - '312-0-1-prot=4;unbreaking=3'
+      - '313-0-1-prot=4;unbreaking=3'
+      - '310-0-1-prot=4;unbreaking=3'
+      - '311-0-1-prot=4;unbreaking=3'
+      - '312-0-1-prot=4;unbreaking=3'
+      - '313-0-1-prot=4;unbreaking=3'
+      - '276-0-1-sharp=5;fire=2;unbreaking=3'
+      - '276-0-1-sharp=5;knockback=2;unbreaking=3'
+      - '278-0-1-efficiency=5;unbreaking=3;fortune=3'
+      - '368-0-12'
+      - '322-1-8'
+      - '322-0-24'
+    #time in miliseconds, because sometimes we want 10s kit for example food kit
+    #24hours*60mins*60seconds*1000miliseconds = 86400000
+    time: 57600000
+    #enable kit or disable (true/false)
+    enable: true
+    #important timekey, always use to read cooldown data, you cant change before restart base
+    timekey: 0
+    menuitem: 'DIAMOND_SWORD'
+  #name of kit
+  gracz:
+    #items like id-data-amount-enchant=levelenchant;enchant=levelenchant....
+    items:
+      - '257-0-1-efficiency=5;unbreaking=3'
+      - '364-0-128'
+      - '5-0-16'
+      - '133-0-1'
+    #time in miliseconds, because sometimes we want 10s kit for example food kit
+    #24hours*60mins*60seconds*1000miliseconds = 86400000
+    time: 7200000
+    #enable kit or disable (true/false)
+    enable: true
+    #important timekey, always use to read cooldown data, you cant change before restart base
+    timekey: 1
+    menuitem: 'WOOD_SWORD'
+  jedzenie:
+    #items like id-data-amount-enchant=levelenchant;enchant=levelenchant....
+    items:
+      - '364-0-128'
+    #time in miliseconds, because sometimes we want 10s kit for example food kit
+    #24hours*60mins*60seconds*1000miliseconds = 86400000
+    time: 300000
+    #enable kit or disable (true/false)
+    enable: true
+    #important timekey, always use to read cooldown data, you cant change before restart base
+    timekey: 2
+    menuitem: 'COOKED_BEEF'
